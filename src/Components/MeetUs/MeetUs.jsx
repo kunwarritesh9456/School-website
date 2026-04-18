@@ -37,7 +37,7 @@ const MeetUs = () => {
           className="relative z-10 text-white px-6"
         >
           <h1 className="text-5xl md:text-7xl font-bold mb-6">
-            Admissions
+            Meet  us
           </h1>
           <p className="max-w-2xl mx-auto text-lg text-gray-200">
             Begin your journey with a community that inspires excellence,
