@@ -26,7 +26,7 @@ const features = [
   },
 ];
 
-const OurStory = () => {
+const Ourstory = () => {
   return (
     <div className="bg-white text-gray-900">
       {/* HERO SECTION */}
@@ -135,4 +135,4 @@ const OurStory = () => {
   );
 };
 
-export default OurStory;
+export default Ourstory;

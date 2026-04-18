@@ -36,10 +36,9 @@ const Navbar = () => {
       megaMenu: true,
       content: [
         {
-          title: "Our School",
+          title: "Our Facilities",
           items: [
             { name: "Facilities", path: "/Facilities" },
-            { name: "Our School", path: "/OurSchool" },
             { name: "Why Us", path: "/WhyUs" },
           ],
         },
@@ -89,22 +88,23 @@ const Navbar = () => {
     },
 
     {
-      name: "Meet Us",
+      name: "MeetUs",
       megaMenu: true,
       content: [
         {
           title: "Explore",
           items: [
-            { name: "OurStory", path: "/ourstory" },
-            { name: "OurPeople", path: "/ourpeople" },
-            { name: "OurProgram", path: "/ourprogram" },
+            { name: "MeetUs", path: "/MeetUs" },
+            { name: "Ourstory", path: "/ourstory" },
+            { name: "Ourpeople", path: "/ourpeople" },
+            { name: "Ourprogram", path: "/ourprogram" },
           ],
         },
         {
           title: "More",
           items: [
-            { name: "OurSchools", path: "/ourschools" },
-            { name: "OurPlace", path: "/ourplace" },
+            { name: "Ourschools", path: "/ourschools" },
+            { name: "Ourplace", path: "/ourplace" },
           ],
         },
       ],

@@ -44,7 +44,7 @@ const VisionMission = () => {
       {/* HERO */}
       <div className="min-h-[55vh] sm:min-h-screen bg-linear-to-r from-indigo-900 to-blue-600 flex items-center justify-center text-white text-center">
        <img
-          src="img 9.png"
+          src="premium.avif"
           className="absolute inset-0 w-full h-full object-cover opacity-30"
           alt="Staff Hero"
         />
