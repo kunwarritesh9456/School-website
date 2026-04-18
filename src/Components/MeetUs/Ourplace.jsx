@@ -26,7 +26,7 @@ const locations = [
   },
 ];
 
-const Ourplace = () => {
+const OurPlace = () => {
   const mapRef = useRef(null);
   const [tooltip, setTooltip] = useState(null);
 
@@ -145,4 +145,4 @@ const Ourplace = () => {
   );
 };
 
-export default Ourplace;
+export default OurPlace;

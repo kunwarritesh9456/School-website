@@ -28,7 +28,7 @@ const schools = [
   },
 ];
 
-const Ourschools = () => {
+const OurSchools = () => {
   return (
     <div className="bg-white text-gray-900">
       {/* HERO */}
@@ -98,4 +98,4 @@ const Ourschools = () => {
   );
 };
 
-export default Ourschools;
+export default OurSchools;

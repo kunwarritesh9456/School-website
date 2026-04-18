@@ -86,7 +86,7 @@ const news = [
 
 /* ================== COMPONENT ================== */
 
-const Ourpeople = () => {
+const OurPeople = () => {
   return (
     <div className="bg-white text-gray-900">
       {/* HERO */}
@@ -195,4 +195,4 @@ const Ourpeople = () => {
   );
 };
 
-export default Ourpeople;
+export default OurPeople;

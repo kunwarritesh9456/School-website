@@ -95,16 +95,16 @@ const Navbar = () => {
           title: "Explore",
           items: [
             { name: "MeetUs", path: "/MeetUs" },
-            { name: "Ourstory", path: "/ourstory" },
-            { name: "Ourpeople", path: "/ourpeople" },
-            { name: "Ourprogram", path: "/ourprogram" },
+            { name: "OurStory", path: "/OurStory" },
+            { name: "OurPeople", path: "/OurPeople" },
+            { name: "OurProgram", path: "/OurProgram" },
           ],
         },
         {
           title: "More",
           items: [
-            { name: "Ourschools", path: "/ourschools" },
-            { name: "Ourplace", path: "/ourplace" },
+            { name: "OurSchools", path: "/OurSchools" },
+            { name: "OurPlace", path: "/OurPlace" },
           ],
         },
       ],

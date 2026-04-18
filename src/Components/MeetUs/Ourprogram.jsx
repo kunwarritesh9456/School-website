@@ -43,7 +43,7 @@ const programs = [
   },
 ];
 
-const Ourprogram = () => {
+const OurProgram = () => {
   return (
     <div className="bg-white text-gray-900">
       {/* HERO */}
@@ -154,4 +154,4 @@ const Ourprogram = () => {
   );
 };
 
-export default Ourprogram;
+export default OurProgram;

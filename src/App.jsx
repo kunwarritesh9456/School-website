@@ -20,7 +20,7 @@ import SignatureExperience from "./Components/Academics/SignatureExperience.jsx"
 import Outcomes from "./Components/Academics/Outcomes.jsx";
 
 import Admission from "./Components/Admission/Admission.jsx";
-import ApplyNow from "./Components/ApplyNow/Apply.jsx";
+import ApplyNow from "./Components/ApplyNow/ApplyNow.jsx";
 import Explore from "./Components/Explore/Explore.jsx";
 
 import StudentLife from "./Components/StudentLife/StudentLife.jsx";
@@ -29,11 +29,11 @@ import MiddleSchool from "./Components/StudentLife/MiddleSchool.jsx";
 import SeniorSchoollife from "./Components/StudentLife/SeniorSchoollife.jsx";
 
 import MeetUs from "./Components/MeetUs/MeetUs.jsx";
-import Ourpeople from "./Components/MeetUs/Ourpeople.jsx";
-import Ourplace from "./Components/MeetUs/Ourplace.jsx";
-import Ourprogram from "./Components/MeetUs/Ourprogram.jsx";
-import Ourschools from "./Components/MeetUs/Ourschools.jsx";
-import Ourstory from "./Components/MeetUs/Ourstory.jsx";
+import OurPeople from "./Components/MeetUs/OurPeople.jsx";
+import OurPlace from "./Components/MeetUs/OurPlace.jsx";
+import OurProgram from "./Components/MeetUs/OurProgram.jsx";
+import OurSchools from "./Components/MeetUs/OurSchools.jsx";
+import OurStory from "./Components/MeetUs/OurStory.jsx";
 
 import News from "./Components/News/News.jsx";
 import Contact from "./Components/Contact/Contact.jsx";
@@ -67,7 +67,7 @@ function App() {
       <Route path="/Outcomes" element={<Outcomes />} />
 
       <Route path="/Admission" element={<Admission />} />
-      <Route path="/apply-now" element={<ApplyNow />} />
+      <Route path="/ApplyNow" element={<ApplyNow />} />
       
       
       <Route path="/StudentLife" element={<StudentLife />} />
@@ -76,11 +76,11 @@ function App() {
       <Route path="/SeniorSchoollife" element={<SeniorSchoollife />} />
       
       <Route path="/MeetUs" element={<MeetUs />} />
-      <Route path="/Ourpeople" element={<Ourpeople />} />
-      <Route path="/Ourplace" element={<Ourplace />} />
-      <Route path="/Ourprogram" element={<Ourprogram />} />
-      <Route path="/Ourschools" element={<Ourschools />} />
-      <Route path="/Ourstory" element={<Ourstory />} />
+      <Route path="/OurPeople" element={<OurPeople />} />
+      <Route path="/OurPlace" element={<OurPlace />} />
+      <Route path="/OurProgram" element={<OurProgram />} />
+      <Route path="/OurSchools" element={<OurSchools />} />
+      <Route path="/OurStory" element={<OurStory />} />
       
       
       <Route path="/News" element={<News />} />

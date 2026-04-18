@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { motion } from "framer-motion";
 
-const Apply = () => {
+const ApplyNow = () => {
   const [step, setStep] = useState(1);
 
   const [form, setForm] = useState({
@@ -179,4 +179,4 @@ const Apply = () => {
   );
 };
 
-export default Apply;
+export default ApplyNow;
